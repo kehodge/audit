@@ -1,5 +1,5 @@
 /*-- css rest --*/
-html, body, h1, header, nav, footer, ul, li{ 
+html, body, h1, h2, h3, header, nav, footer, ul, li{ 
 	padding: 0;
 	margin: 0;
 	}
@@ -8,16 +8,97 @@ html, body, h1, header, nav, footer, ul, li{
 /*-- header styling --*/
 
 h1{
-   font-size:3.4375em; /*-- 55px --*/
+   font-size:2.5em; /*-- 50px --*/
    opacity:0.9;
    color:blue;
-   text-shadow:7px 5px 5px red;
+   text-shadow:6px 4px 4px yellow;
    font-family: Stalinist One;
+   text-align:center;
+}
 
 /*-- body styling --*/
 
+body{
+	width:100%;/*900px*/
+    background-color: green;
+    font-size:100%;
+    max-width:960px;
+    
+}
 
-   background-color: green;
+nav, h1, h2, h3{
+	font-family: Stalinist One;
+}
+
+h2{
+	opacity:0.9;
+    color:blue;
+    text-shadow:6px 4px 4px yellow;
+    margin: 35px;
+    
+}
+
+#service{
+	float: right;
+	
+}
+
+#trust{
+	padding-left: 500px;
+	
+}
+
+#request{
+	padding-right: 100px;
+}
+
+
+
+/*-- nav styling --*/
+
+nav ul{
+   width:100%;/*900px*/
+   background: #000;
+   list-style-type: none;
+   overflow:hidden;
+   
+}
+
+nav ul li{
+   width:16.666666666667%;/*150px*/
+   float:left;
+   background:#000;       
+}
+
+nav ul a{
+   text-decoration: none;
+   display: block;
+   height:30px;
+   line-height: 30px;
+   text-align: center; 
+}
+
+a:link{
+   color:red;
+}
+
+a:visited{
+   color:blue;
+   
+}
+
+a:hover{
+   color:#f0f0ff;
+   text-shadow:7px 5px 5px white;
+   text-decoration:underline;
+} 
+
+a:active{
+   color:red;
+}
+
+/*-- footer styling --*/
+
 
 
 
