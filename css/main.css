@@ -1,0 +1,27 @@
+/*-- css rest --*/
+html, body, h1, header, nav, footer, ul, li{ 
+	padding: 0;
+	margin: 0;
+	}
+
+
+/*-- header styling --*/
+
+h1{
+   font-size:3.4375em; /*-- 55px --*/
+   opacity:0.9;
+   color:blue;
+   text-shadow:7px 5px 5px red;
+   font-family: Stalinist One;
+
+/*-- body styling --*/
+
+
+   background-color: green;
+
+
+
+
+
+
+   
