@@ -21,7 +21,12 @@ h1{
 body{
 	width:100%;/*900px*/
   max-width:960px;
-    
+  margin:0 auto;
+  font-size: 100%;  
+}
+
+#title{
+  margin-bottom:30px;
 }
 
 h1, h2, h3{
@@ -52,10 +57,15 @@ h2{
 
 
 
+
+
 /*-- nav styling --*/
 
 nav{
   font-size: 1.0625em;/*17*/
+
+  
+
 }
 
 nav ul{
@@ -65,6 +75,7 @@ nav ul{
   overflow:hidden;
   margin: 0 auto;
   padding: 0;
+ 
    
 }
 
@@ -76,16 +87,17 @@ nav ul li{
 }
 
 nav ul a{
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
   height:30px;
   line-height: 30px;
   text-align: center;
 
+
 }
 
 a:link{
-  color:red;
+  color: #ffcc33;
 }
 
 a:visited{
