@@ -4,92 +4,6 @@ html, body, h1, h2, h3, header, nav, footer, ul, li{
 	margin: 0;
 }
 
-
-/*-- header styling --*/
-
-h1{
-  font-size:3.125em; /*-- 50px --*/
-  opacity:0.9;
-  color:blue;
-  text-shadow:6px 4px 4px yellow;
-  font-family: Stalinist One;
-  text-align:center;
-}
-
-/*-- body styling --*/
-
-body{
-	width:100%;/*900px*/
-  max-width:960px;
-  margin:0 auto;
-  font-size: 100%;
-  background-color: green;  
-}
-
-#title{
-  margin-bottom:3.333333333333%;/*30px*/
-}
-
-h1, h2, h3{
-	font-family: Stalinist One;
-}
-
-h2{
-	opacity:0.9;
-  color:blue;
-  text-shadow:6px 4px 4px yellow;
-  margin:3.888888888889%;/*35px*/
-  font-size: 1.875em;/*30px*/  
-}
-
-#service{
-	float: right;
-	
-}
-
-#trust{
-	padding-left:55.555555555556%;/*500*/
-	
-}
-
-
-/*-- form styling --*/
-
-#request{
-  padding-left:31.111111111111%;/*280px*/
-  margin-bottom:10%;/*90px*/
-  font-size:1.25em;/*20px*/
-}
-
-#rstitle{
-  text-align: center;
-}
-
-#first, #last, #number, #email, #comment{
-  margin-bottom:2.222222222222%;/*20px*/
-}
-
-/*-- contact information styling --*/
-
-#contact{
-  font-size:1.875em;/*30px*/
-  line-height: 1.5;
-}
-
-#contact, #cinfo{
-  text-align: center;
-}
-
-#ggoemail{
-  text-decoration: underline;
-  color:blue;
-}
-
-ol li{
-  list-style-type: none;
-}
-
-
 /*-- nav styling --*/
 
 nav{
@@ -136,11 +50,40 @@ a:active{
   color:red;
 }
 
-/*-- footer styling --*/
 
-footer{
-  text-align: center;
+/*-- header styling --*/
+
+h1{
+  font-size:3.125em; /*-- 50px --*/
+  opacity:0.9;
+  color:blue;
+  text-shadow:6px 4px 4px yellow;
+  font-family: Stalinist One;
+  text-align:center;
 }
+
+h1, h2, h3{
+  font-family: Stalinist One;
+}
+
+h2{
+  opacity:0.9;
+  color:blue;
+  text-shadow:6px 4px 4px yellow;
+  margin:3.888888888889%;/*35px*/
+  font-size: 1.875em;/*30px*/  
+}
+
+#service{
+  float: right;
+  
+}
+
+
+#title{
+  margin-bottom:3.333333333333%;/*30px*/
+}
+
 
 /*-- images --*/
 
@@ -150,7 +93,76 @@ img.symbols{
   padding-left:3.333333333333%;/*30px*/
   width:47.777777777778%;/*430px*/
   max-width: 100%;
-} 
+}
+
+
+
+/*-- body styling --*/
+
+body{
+	width:100%;/*900px*/
+  max-width:960px;
+  margin:0 auto;
+  font-size: 100%;
+  background-color: green;  
+}
+
+/*-- index styling --*/
+
+#trust{
+  padding-left:55.555555555556%;/*500*/
+  padding-right:3.333333333333%;/*30px*/
+}
+
+#prices{
+  padding-right:55.555555555556%;/*500*/
+  padding-left:3.333333333333%;/*30px*/
+}
+
+
+
+/*-- form styling --*/
+
+#request{
+  padding-left:31.111111111111%;/*280px*/
+  margin-bottom:10%;/*90px*/
+  font-size:1.25em;/*20px*/
+}
+
+#rstitle{
+  text-align: center;
+}
+
+#first, #last, #number, #email, #comment{
+  margin-bottom:2.222222222222%;/*20px*/
+}
+
+/*-- contact information styling --*/
+
+#contact{
+  font-size:1.875em;/*30px*/
+  line-height: 1.5;
+}
+
+#contact, #cinfo{
+  text-align: center;
+}
+
+#ggoemail{
+  text-decoration: underline;
+  color:blue;
+}
+
+ol li{
+  list-style-type: none;
+}
+
+/*-- footer styling --*/
+
+footer{
+  text-align: center;
+}
+
 
 
 /*=Media Queries
