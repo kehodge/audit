@@ -115,7 +115,7 @@ body{
 }
 
 #trust{
-  font-size: 23px;
+  font-size:1.4375em;/*23px*/
 
   width:410px;
   border: solid 1px;
@@ -132,19 +132,41 @@ body{
 }
 
 #prices{
-  font-size: 23px;
-  width:50%;
+  font-size:1.4375em;/*23px*/
+  width:400px;
   border: solid 1px;
   padding:5px;
   background: gray;
   position: relative;
-  bottom: 340px;
+  bottom: 320px;
   left: 32px;
 
 }
 
 #prices h2{
   text-align: center;
+}
+
+#today{
+  font-size:1.4375em;/*23px*/
+  width:400px;
+  border: solid 1px;
+  padding:5px;
+  background: gray;
+  position: relative;
+  bottom: 625px;
+  left: 490px;
+}
+
+#today h2{
+  text-align: center;
+}
+
+
+#today span{
+  font-weight:bold;
+  font-size:1.4375em;/*23px*/
+  padding-left: 80px;
 }
 
 /*-- index styling --*/
@@ -166,6 +188,10 @@ body{
 
 #first, #last, #number, #email, #comment{
   margin-bottom:2.222222222222%;/*20px*/
+}
+
+#comment{
+  margin-top:2.222222222222%;/*20px*/
 }
 
 /*-- contact information styling --*/
