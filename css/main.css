@@ -32,21 +32,21 @@ nav ul a{
   text-align: center;
 }
 
-a:link{
+nav a:link{
   color: #ffcc33;
 }
 
-a:visited{
+nav a:visited{
   color:orange;
 }
 
-a:hover{
+nav a:hover{
   color:#f0f0ff;
   text-shadow:7px 5px 5px white;
   text-decoration:underline;
 } 
 
-a:active{
+nav a:active{
   color:red;
 }
 
@@ -60,10 +60,17 @@ h1{
   text-shadow:6px 4px 4px yellow;
   font-family: Stalinist One;
   text-align:center;
+  margin-bottom:3.333333333333%;/*30px*/
+  text-decoration: none;
 }
 
 h1, h2, h3{
   font-family: Stalinist One;
+}
+
+h1 a:link{
+  text-decoration: none;
+  color:blue;
 }
 
 h2{
@@ -71,18 +78,18 @@ h2{
   color:blue;
   text-shadow:6px 4px 4px yellow;
   margin:3.888888888889%;/*35px*/
-  font-size: 1.875em;/*30px*/  
-}
-
-#service{
-  float: right;
-  
-}
-
-
-#title{
+  font-size: 1.5625em;/*25px*/
   margin-bottom:3.333333333333%;/*30px*/
+  text-decoration: none;
+   
 }
+
+#home p{
+  padding-left:3.333333333333%;/*30px*/
+  padding-right:3.333333333333%;/*30px*/ 
+}
+
+
 
 
 /*-- images --*/
@@ -107,17 +114,41 @@ body{
   background-color: green;  
 }
 
-/*-- index styling --*/
-
 #trust{
-  padding-left:55.555555555556%;/*500*/
-  padding-right:3.333333333333%;/*30px*/
+  font-size: 23px;
+
+  width:410px;
+  border: solid 1px;
+  padding: 10px;
+  background: gray;
+  position: relative;
+  left: 490px;
+  bottom: 340px;
+
+}
+
+#trust h2 {
+  text-align: center;
 }
 
 #prices{
-  padding-right:55.555555555556%;/*500*/
-  padding-left:3.333333333333%;/*30px*/
+  font-size: 23px;
+  width:50%;
+  border: solid 1px;
+  padding:5px;
+  background: gray;
+  position: relative;
+  bottom: 340px;
+  left: 32px;
+
 }
+
+#prices h2{
+  text-align: center;
+}
+
+/*-- index styling --*/
+
 
 
 
