@@ -11,12 +11,12 @@
    <body id="form">
     <header>
 
-     <h1><a href="index.html">Get Gaming<br/ >Orlando</a></h1>
+     <h1><a href="index.html">Get Gaming<br/>Orlando</a></h1>
      
       <nav>
         <ul>
          <li><a href="index.html">Home</a></li>
-         <li><a href="about.html">About Us</a></li>
+         <li><a href="faqs.html">FAQs</a></li>
          <li><a href="services.html">Services</a></li>
          <li><a href="form.html">Request Service</a></li>
          <li><a href="generic.html">Contact Us</a></li>
@@ -41,33 +41,45 @@
           <label for="last_name">Last name</label>
           <input type="text" name="last_name" size="36" id="last_name"/>
          </div>
+
+         <div id='company'>
+          <label>Company Name</label>
+          <input type="text" name="company_name" size="29" id="company_name"/>
+         </div>
     
          <div id="email">
           <label for="email_address">Email Address</label>
-          <input type="text" name="last_name" size="30" id="email_address"/>
+          <input type="text" name="email_address" size="30" id="email_address"/>
          </div>
   
          <div id="number">
           <label for="phone_number">Phone number</label>
           <input type="text" name="phone_number" size="15" id="phone_number"/>
-          </div>
+         </div>
+
+         <div id="times">
+          <label>Best time to contact you</label><br/>
+          <input type="radio" name="Available Contact Time" value="morning">Morning
+          <input type="radio" name="Available Contact Time" value="afternoon">Afternoon
+          <input type="radio" name="Available Contact Time" value="evening">Evening
+         </div> 
 
           <div>
            <label>Product</label>
-         </div>
+          </div>
          
          <div>  
           <select>
-           <option>PS3</option>
+           <option>Playstation 3</option>
            <option>Xbox 360</option>
-           <option>Wii</option>
-           <option>psp</option>
+           <option>Nintendo Wii</option>
+           <option>PSP</option>
            <option>Nintendo DS</option>
-           <option>Desktop</option>
+           <option>Laptop</option>
           </select>
          </div>   
   
-          <div id="comment">
+         <div id="comment">
           <label for="last_name">Service</label>
           <textarea name="service" id="comments" rows="10" cols="34"></textarea>
          </div>
@@ -77,7 +89,7 @@
          </div>
           
       </form>
-     </div> 
+      </div> 
          
      <footer>
       <a href="Terms.html">Terms of Use</a>

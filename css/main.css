@@ -66,6 +66,7 @@ h1{
 
 h1, h2, h3{
   font-family: Stalinist One;
+  text-align: center;
 }
 
 h1 a:link{
@@ -81,15 +82,7 @@ h2{
   font-size: 1.5625em;/*25px*/
   margin-bottom:3.333333333333%;/*30px*/
   text-decoration: none;
-   
 }
-
-#home p{
-  padding-left:3.333333333333%;/*30px*/
-  padding-right:3.333333333333%;/*30px*/ 
-}
-
-
 
 
 /*-- images --*/
@@ -103,7 +96,6 @@ img.symbols{
 }
 
 
-
 /*-- body styling --*/
 
 body{
@@ -114,9 +106,15 @@ body{
   background-color: green;  
 }
 
+/*-- index styling --*/
+
+#home p{
+  padding-left:3.333333333333%;/*30px*/
+  padding-right:3.333333333333%;/*30px*/ 
+}
+
 #trust{
   font-size:1.4375em;/*23px*/
-
   width:410px;
   border: solid 1px;
   padding: 10px;
@@ -124,12 +122,9 @@ body{
   position: relative;
   left: 490px;
   bottom: 340px;
-
-}
-
-#trust h2 {
   text-align: center;
 }
+
 
 #prices{
   font-size:1.4375em;/*23px*/
@@ -140,12 +135,9 @@ body{
   position: relative;
   bottom: 320px;
   left: 32px;
-
-}
-
-#prices h2{
   text-align: center;
 }
+
 
 #today{
   font-size:1.4375em;/*23px*/
@@ -154,13 +146,11 @@ body{
   padding:5px;
   background: gray;
   position: relative;
-  bottom: 625px;
+  bottom: 670px;
   left: 490px;
-}
-
-#today h2{
   text-align: center;
 }
+
 
 
 #today span{
@@ -168,11 +158,6 @@ body{
   font-size:1.4375em;/*23px*/
   padding-left: 80px;
 }
-
-/*-- index styling --*/
-
-
-
 
 /*-- form styling --*/
 
@@ -186,7 +171,7 @@ body{
   text-align: center;
 }
 
-#first, #last, #number, #email, #comment{
+#first, #last, #number, #email, #comment, #times, #company{
   margin-bottom:2.222222222222%;/*20px*/
 }
 
@@ -194,14 +179,19 @@ body{
   margin-top:2.222222222222%;/*20px*/
 }
 
-/*-- contact information styling --*/
+/*-- faqs styling --*/
 
-#contact{
-  font-size:1.875em;/*30px*/
+#faqs p{
+  font-size: 20px;
   line-height: 1.5;
 }
 
-#contact, #cinfo{
+
+/*-- contact information styling --*/
+
+#information p, #information ol{
+  font-size:1.875em;/*30px*/
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -210,15 +200,34 @@ body{
   color:blue;
 }
 
-ol li{
+#information ol li{
   list-style-type: none;
+}
+
+#info{
+  width:840px;
+  border:ridge 5px;
+  background-color: gray;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+
 }
 
 /*-- footer styling --*/
 
 footer{
   text-align: center;
+  padding: 20px;
 }
+
+#information footer{
+  padding: 60px;
+}
+
+/*-- Images styling --*/
+
+
 
 
 
@@ -286,7 +295,6 @@ p, footer{
 
 #request{
    font-size:1.0625em;/*17px*/
-   
 }
 
 
