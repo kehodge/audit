@@ -80,7 +80,7 @@ h2{
   text-shadow:6px 4px 4px yellow;
   margin:3.888888888889%;/*35px*/
   font-size: 1.5625em;/*25px*/
-  margin-bottom:3.333333333333%;/*30px*/
+  margin-bottom:50px;/*30px*/
   text-decoration: none;
 }
 
@@ -183,8 +183,34 @@ body{
 
 #faqs p{
   font-size: 20px;
-  line-height: 1.5;
 }
+
+table{
+   border-collapse: collapse;
+   margin:auto;
+   padding-top:4.531722054381%;
+   background-color:white;
+   font-size:100%;
+
+}
+
+td{
+   border:1px solid #000;
+   padding:0.4em;
+}
+
+th{
+   text-align:center;
+   background-color:blue;
+   color:#000;
+   border:1px solid #000;
+   padding:0.4em;
+}
+
+#odd1, #odd2, #odd3, #odd4{
+   background-color: gray;
+}
+
 
 
 /*-- contact information styling --*/
