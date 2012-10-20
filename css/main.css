@@ -74,7 +74,7 @@ h1 a:link{
   color:blue;
 }
 
-h2{
+h2, h3{
   opacity:0.9;
   color:blue;
   text-shadow:6px 4px 4px yellow;
@@ -207,7 +207,7 @@ th{
    padding:0.4em;
 }
 
-#odd1, #odd2, #odd3, #odd4{
+#odd1, #odd2, #odd3,{
    background-color: gray;
 }
 
@@ -237,8 +237,27 @@ th{
   position: relative;
   margin: 0 auto;
   top: 30px;
-
 }
+
+#services{
+  text-align: center;
+  line-height: 1.5;
+}
+
+#services span{
+  font-weight: bold;
+}
+
+/*-- special offer editing --*/
+
+#special{
+  background-image: url("../images/offer.jpg");
+}
+
+#special h2{
+  text-decoration: blink;
+}
+
 
 /*-- footer styling --*/
 
