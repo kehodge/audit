@@ -115,9 +115,9 @@ body{
 
 #trust{
   font-size:1.4375em;/*23px*/
-  width:410px;
-  border: solid 1px;
-  padding: 10px;
+  width:45.555555555556%;/*410px*/
+  border: solid 0.111111111111%;
+  padding:1.111111111111%;
   background: gray;
   position: relative;
   left: 490px;
@@ -128,9 +128,9 @@ body{
 
 #prices{
   font-size:1.4375em;/*23px*/
-  width:400px;
-  border: solid 1px;
-  padding:5px;
+  width:44.444444444444%;/*400px*/
+  border: solid 0.111111111111%;
+  padding:0.555555555556%;
   background: gray;
   position: relative;
   bottom: 320px;
@@ -141,9 +141,9 @@ body{
 
 #today{
   font-size:1.4375em;/*23px*/
-  width:400px;
-  border: solid 1px;
-  padding:5px;
+  width:44.444444444444%;/*400px*/
+  border: solid 0.111111111111%;
+  padding:0.555555555556%;
   background: gray;
   position: relative;
   bottom: 670px;
@@ -156,7 +156,7 @@ body{
 #today span{
   font-weight:bold;
   font-size:1.4375em;/*23px*/
-  padding-left: 80px;
+  padding-left:8.888888888889%;
 }
 
 /*-- form styling --*/
@@ -182,7 +182,7 @@ body{
 /*-- faqs styling --*/
 
 #faqs p{
-  font-size: 20px;
+  font-size:1.25em;
 }
 
 table{
@@ -203,14 +203,21 @@ th{
    text-align:center;
    background-color:blue;
    color:#000;
-   border:1px solid #000;
+   border:0.111111111111% solid #000;
    padding:0.4em;
 }
 
-#odd1, #odd2, #odd3,{
+#odd1{
    background-color: gray;
 }
 
+#odd2{
+   background-color: gray;
+}
+
+#odd3{
+   background-color: gray;
+}
 
 
 /*-- contact information styling --*/
@@ -231,13 +238,15 @@ th{
 }
 
 #info{
-  width:840px;
-  border:ridge 5px;
+  width:93.333333333333%;/*840px*/
+  border:ridge 0.555555555556%;
   background-color: gray;
   position: relative;
   margin: 0 auto;
   top: 30px;
 }
+
+/*-- services editing --*/
 
 #services{
   text-align: center;
@@ -263,11 +272,11 @@ th{
 
 footer{
   text-align: center;
-  padding: 20px;
+  padding:2.222222222222%;
 }
 
 #information footer{
-  padding: 60px;
+  padding: 6.666666666667%;
 }
 
 /*-- Images styling --*/
