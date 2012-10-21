@@ -12,6 +12,7 @@ nav{
 
 nav ul{
   width:93.75%;/*900px*/
+  border-radius:25px;
   background: #000;
   list-style-type: none;
   overflow:hidden;
@@ -55,7 +56,6 @@ nav a:active{
 
 h1{
   font-size:3.125em; /*-- 50px --*/
-  opacity:0.9;
   color:blue;
   text-shadow:6px 4px 4px yellow;
   font-family: Stalinist One;
@@ -74,14 +74,28 @@ h1 a:link{
   color:blue;
 }
 
-h2, h3{
+h2{
   opacity:0.9;
   color:blue;
   text-shadow:6px 4px 4px yellow;
   margin:3.888888888889%;/*35px*/
-  font-size: 1.5625em;/*25px*/
+  font-size: 35px;/*25px*/
   margin-bottom:50px;/*30px*/
   text-decoration: none;
+}
+h3{
+  opacity:0.9;
+  color:blue;
+  text-shadow:6px 4px 4px yellow;
+  margin:3.888888888889%;/*35px*/
+  font-size: 25px;/*25px*/
+  margin-bottom:50px;/*30px*/
+  text-decoration: none;
+}
+
+
+#information p{
+  background-color:#6495ed;
 }
 
 
@@ -116,7 +130,7 @@ body{
 #trust{
   font-size:1.4375em;/*23px*/
   width:45.555555555556%;/*410px*/
-  border: solid 0.111111111111%;
+  border: solid 1px;
   padding:1.111111111111%;
   background: gray;
   position: relative;
@@ -129,7 +143,7 @@ body{
 #prices{
   font-size:1.4375em;/*23px*/
   width:44.444444444444%;/*400px*/
-  border: solid 0.111111111111%;
+  border: solid 1px;
   padding:0.555555555556%;
   background: gray;
   position: relative;
@@ -142,7 +156,7 @@ body{
 #today{
   font-size:1.4375em;/*23px*/
   width:44.444444444444%;/*400px*/
-  border: solid 0.111111111111%;
+  border: solid 1px;
   padding:0.555555555556%;
   background: gray;
   position: relative;
@@ -165,6 +179,12 @@ body{
   padding-left:31.111111111111%;/*280px*/
   margin-bottom:10%;/*90px*/
   font-size:1.25em;/*20px*/
+  background-color:#e0ffff;
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
 #rstitle{
@@ -178,6 +198,7 @@ body{
 #comment{
   margin-top:2.222222222222%;/*20px*/
 }
+
 
 /*-- faqs styling --*/
 
@@ -203,7 +224,7 @@ th{
    text-align:center;
    background-color:blue;
    color:#000;
-   border:0.111111111111% solid #000;
+   border:1px solid #000;
    padding:0.4em;
 }
 
@@ -239,7 +260,8 @@ th{
 
 #info{
   width:93.333333333333%;/*840px*/
-  border:ridge 0.555555555556%;
+  border:ridge 5px;
+  box-shadow: 10px 10px 5px black;
   background-color: gray;
   position: relative;
   margin: 0 auto;
@@ -255,6 +277,10 @@ th{
 
 #services span{
   font-weight: bold;
+}
+
+#services h3{
+  background-color:#b0c4de;
 }
 
 /*-- special offer editing --*/
